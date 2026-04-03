@@ -1,1 +1,18 @@
-Little Lemon Restaurant API is a Django REST Framework project that provides a backend for a restaurant application. It includes a Menu API with full CRUD operations, a Table Booking API secured with token-based authentication, user registration and login using Djoser, and automated unit tests for models and views. The project integrates MySQL as the database and supports API testing via the browsable API and Insomnia.
+# 🍋 Little Lemon API
+
+Backend **Django REST Framework** pour la gestion d'un restaurant.
+
+### 🛠 Fonctions
+* **Menu API :** CRUD complet des plats.
+* **Booking API :** Réservations sécurisées (Token Auth).
+* **Auth :** Inscription/Connexion via **Djoser**.
+* **Tests :** Unit tests automatisés (Models & Views).
+
+### 💻 Stack
+* **Framework :** DRF + MySQL.
+* **Outils :** Insomnia, Browsable API.
+
+### 🚀 Setup
+```bash
+python manage.py migrate
+python manage.py runserver
