@@ -1,7 +1,7 @@
 # 🍋 Little Lemon API
 
 Backend **Django REST Framework** pour la gestion d'un restaurant.
-
+ 
 ### 🛠 Fonctions
 * **Menu API :** CRUD complet des plats.
 * **Booking API :** Réservations sécurisées (Token Auth).
